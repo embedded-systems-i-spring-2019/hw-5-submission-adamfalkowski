@@ -16,19 +16,19 @@ begin
   process
     if(SEL = "000") then
       mux_output <= mux_input(0);
-     else if (SEL = "001") then
+     elsif (SEL = "001") then
             mux_output <= mux_input(1);
-     else if  (SEL = "010") then
+     elsif  (SEL = "010") then
             mux_output <= mux_input(2);
-     else if (SEL = "011") then
+     elsif (SEL = "011") then
             mux_outout <= mux_input(3);
-     else if (SEL = "100") then
+     elsif (SEL = "100") then
             mux_output <= mux_input(4);
-     else if (SEL = "101") then
+     elsif (SEL = "101") then
             mux_output <= mux_input(5);
-     else if (SEL = "110") then
+     elsif (SEL = "110") then
             mux_output <= mux_input(6);
-     else if (SEL = "111") then
+     elsif (SEL = "111") then
             mux_output <= mux_input(7);
         else 
             mux_output <= '0';
