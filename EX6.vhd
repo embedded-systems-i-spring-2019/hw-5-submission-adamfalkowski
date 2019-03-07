@@ -34,7 +34,7 @@ begin
             mux_output <= '0';
         end if;
     end process;
-end crk6_arc;
+end crk6_arc_if;
 
 ---------------------------------------------------
 --architecture using case
