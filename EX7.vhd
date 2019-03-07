@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.numeric_std.all;
 
 entity crk7 is
   Port (
@@ -47,8 +48,9 @@ cse: process
 begin
    case (D0) is
       
-      when "000"=>
-            D1<= "11111110";
+      when "000"=> 
+	   D1<= "11111110";
+	
       when "001"=>
             D1 <= "11111101";
       when "010"=>
