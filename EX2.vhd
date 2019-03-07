@@ -26,6 +26,7 @@ entity crk2 is
         end case;
       end process;
      end case_arc;
+		
           
   
   
